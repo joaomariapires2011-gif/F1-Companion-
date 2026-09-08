@@ -4,8 +4,8 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Status](https://img.shields.io/badge/Status-In_Development-orange.svg)
-
+![Build](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)
+![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)
 ---
 
 ## ✨ Features
