@@ -37,3 +37,12 @@ Make sure you have **Python 3.9+** installed.
    ```bash
    git clone [https://github.com/joaomariapires2011-gif/F1-Companion-.git](https://github.com/joaomariapires2011-gif/F1-Companion-.git)
    cd F1-Companion-
+---
+
+## 📌 Roadmap
+
+- [x] Basic telemetry visualization (Speed vs. Distance)
+- [x] Multithreaded data loader
+- [x] Track Map visualization (rendering circuit X/Y telemetry coordinates)
+- [x] Implement full Lap Times comparison table
+- [ ] Weather telemetry and track conditions integration
