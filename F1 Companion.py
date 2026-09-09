@@ -7,9 +7,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import fastf1
 import fastf1.plotting
 
-# ==========================================
-# ⚙️ SETUP E CONFIGURAÇÕES INICIAIS
-# ==========================================
+# SETUP E CONFIGURAÇÕES INICIAIS
 if not os.path.exists('cache'):
     os.makedirs('cache')
 fastf1.Cache.enable_cache('cache') 
@@ -23,9 +21,7 @@ canvas_telemetry = None
 canvas_track = None
 
 
-# ==========================================
-# 🏎️ MOTOR DE DADOS E TELEMETRIA
-# ==========================================
+# MOTOR DE DADOS E TELEMETRIA
 def load_session_data():
     global session_telemetry
     try:
@@ -165,9 +161,9 @@ def update_chart_for_drivers(d1_code, d2_code):
         print(f"❌ Erro na lógica de telemetria: {e}")
 
 
-# ==========================================
-# 🖥️ CONSTRUÇÃO DA INTERFACE
-# ==========================================
+
+# CONSTRUÇÃO DA INTERFACE
+
 app = ctk.CTk()
 app.title("F1 Companion")
 app.geometry("900x650")
